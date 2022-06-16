@@ -36,3 +36,22 @@
     '9' => '----.',
     '0' => '-----',
 }
+
+def morse_to_letters_map
+    @morse_code_list.invert
+  end
+  
+  def decode_char(str)
+    morse_to_letters_map[str].upcase
+  end
+  
+  def decode_word(str)
+    str.split.map { |char| decode_char(char) }.join
+  end
+  
+  def morse_to_letters(str)
+    str.split('   ').map { |word| decode_word(word) }.join(' ')
+  end
+  
+  printf(morse_to_letters('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'))
+  
