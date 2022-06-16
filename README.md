@@ -40,7 +40,7 @@ Morse code is a method used in telecommunication to encode text characters as st
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues)
+Feel free to check the [issues page](../../issues) .
 
   1. Fork the Project
   2. Create your Feature Branch (`git checkout -b feature/newFeature`)
@@ -63,4 +63,4 @@ Feel free to check the [issues page](../../issues)
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project!!
